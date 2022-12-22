@@ -533,6 +533,9 @@ img {
 .backdrop {
   /*szare tlo*/
   position: fixed;
+  display:flex;
+  justify-content: center;
+  align-items: center;
   left: 0;
   top: 0;
   width: 100%;
@@ -550,10 +553,8 @@ img {
 
 .modal {
   /*biale okno*/
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
+ 
   width: 528px;
   min-height: 581px;
   background-color: #fff;
